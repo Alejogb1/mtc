@@ -45,4 +45,5 @@ def test_best(max_weight = 20):
     taken, val = choose_best(pset, max_weight, greedy_flexible.Item.get_value, greedy_flexible.Item.get_weight)
     print('total value is ', val)
     for item in taken:
+        ## for item in best set
         print(item)
